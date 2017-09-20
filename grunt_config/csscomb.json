@@ -1,0 +1,13 @@
+﻿{
+   "less": {
+      "files": [
+         {
+            "cwd": "less",
+            "dest": "less",
+            "expand": true,
+            "flatten": true,
+            "src": [ "**/*.less" ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,117 @@
+<?php require_once 'helper/tag_helper.php'; ?>
+<div class="uh7a1-chapter">
+   <div class="container">
+      <div class="main-title">Giới thiệu</div>
+
+      <div class="heading1">
+         <span class="numbering">I</span>Đặc điểm chung của tiếng Nhật
+      </div>
+
+      <div class="segment">
+         <div class="heading2">
+            <span class="numbering">1</span>Từ loại
+         </div>
+
+         <div>
+            Trong tiếng Nhật có các từ loại như sau: động từ, tính từ, danh từ, phó từ, liên từ, và trợ từ. 
+         </div>
+      </div>
+
+      <div class="segment">
+         <div class="heading2">
+            <span class="numbering">2</span>Trật tự trong câu
+         </div>
+
+         <div>
+            Vị ngữ luôn ở cuối câu. Bộ phận bổ nghĩa (từ hoặc ngữ) luôn đứng trước bộ phận được bổ nghĩa.
+         </div>
+      </div>
+
+      <div class="segment">
+         <div class="heading2">
+            <span class="numbering">3</span>Trật tự trong câu
+         </div>
+
+         <div>
+            Vị ngữ trong tiếng Nhật được cấu thành từ một trong ba từ loại là danh từ, động từ, và tính từ. Vị ngữ biểu thị thể khẳng định hoặc phủ định) và thời.<br />
+            Tính từ có hai loại là tính từ đuôi
+            <span class="text bold blue"><?php ruby_tag('い', '', 'i') ?></span> và tính từ đuôi <span class="text bold blue"><?php ruby_tag('な', '', 'na') ?></span>.
+            Cách biến đổi của hai loại này khác nhau.<br /> Trong tiếng Nhật, từ
+            không thay đổi theo ngôi, giống, và số.
+         </div>
+      </div>
+
+      <div class="segment">
+         <div class="heading2">
+            <span class="numbering">4</span>Trợ từ
+         </div>
+
+         <div>Trợ từ biểu thị quan hệ giữa các từ hoặc ý định của người nói và
+            nối các câu.</div>
+      </div>
+
+      <div class="segment">
+         <div class="heading2">
+            <span class="numbering">5</span>Giản lược
+         </div>
+
+         <div>Trong trường hợp đã được làm rõ nghĩa trong văn cảnh của câu thì
+            một số bộ phận của câu được giản lược. Ngay cả chủ ngữ, tân ngữ cũng
+            được giản lược.</div>
+      </div>
+
+      <div class="heading1">
+         <span class="numbering">II</span>Chữ viết trong tiếng Nhật
+      </div>
+
+      <div class="segment">
+         <div>
+            Trong tiếng Nhật có ba loại chữ viết là Hiragana, Katakana, và chữ
+            Hán. Hiragana và Katakana là các chữ tượng âm. Về nguyên tắc thì mỗi
+            chữ trong hệ thống chữ này biểu thị một đơn vị âm trong tiếng Nhật
+            (tham khảo phần III). Còn chữ Hán là chữ tượng hình, ngoài việc biểu
+            thị âm, mỗi chữ Hán còn biểu thị nghĩa.<br /> Câu trong tiếng Nhật
+            được viết bằng chữ Hán và chữ Kana (Hiragana và Katakana). Chữ
+            Katakana được dùng để biểu thị tên người hoặc địa danh nước ngoài
+            hoặc các từ ngoại lai. Số lượng chữ Hán thông dụng được quy định là
+            1945 chữ. Chữ Hiragana được dùng để biểu thị trợ từ hoặc các phần
+            biến đổi của động từ, tính từ v.v.. Ngoài ra, trong một số trường
+            hợp chữ Latin cũng được dùng trong trường hợp viết cho đối tượng là
+            người nước ngoài. Những chữ này thường thấy ở trên các bảng biển,
+            tên nhà ga v.v.. Các ví dụ dưới đây cho thấy bốn loại chữ được dùng
+            để viết tiếng Nhật.
+         </div>
+      </div>
+
+      <div class="heading1">
+         <span class="numbering">III</span>Phát âm của tiếng Nhật
+      </div>
+
+      <div class="segment">
+         <div class="heading2">
+            <span class="numbering">1</span>Chữ Kana và đơn vị âm
+         </div>
+
+         <div>
+            Âm trong tiếng Nhật được cấu thành bởi một trong năm nguyên âm sau:
+            <span class="text bold d-inline-block">「あ a」</span><span
+               class="text bold d-inline-block">「い i」</span><span
+               class="text bold d-inline-block">「う u」</span><span
+               class="text bold d-inline-block">「え e」</span><span
+               class="text bold d-inline-block">「お o」</span> (tham khảo trang
+            trước). Các nguyên âm này có thể đứng một mình hoặc đứng sau phụ âm,
+            đứng sau phụ âm + y (bán nguyên âm) để tạo thành một đơn vị âm (ví
+            dụ: k + a = か，k + y + a = きゃ). Trừ một trường hợp ngoại lệ là <span
+               class="text bold d-inline-block">「ん」</span> không đi kèm với
+            nguyên âm nào nhưng vẫn tạo thành một đơn vị âm. Các đơn vị âm trong
+            tiếng Nhật đều được phát âm với độ dài giống nhau.<br /> <span
+               class="text bold">[Chú ý 1]</span> Các từ tiếng Nhật được cấu
+            thành từ các đơn vị âm.<br /> <span class="text bold">[Chú ý 2]</span>
+            Chữ Kana được dùng đề ghi các âm trong tiếng Nhật (xem phần “Chữ
+            Kana và đơn vị âm” ở trang trước), về nguyên tắc thì một âm được
+            biểu thị bằng một chữ Hiragana，hoặc một chữ Hiragana và một chữ nữa
+            có kích thước nhỏ hơn như trong 「きゃ」
+         </div>
+      </div>
+   </div>
+</div>

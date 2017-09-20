@@ -1,0 +1,71 @@
+﻿{
+   "gruntfile": {
+      "files": [ "Gruntfile.js" ],
+      "options": {
+         "reload": true,
+         "interval": 0
+      }
+   },
+
+   "coffee": {
+      "files": [ "coffee/**/*.coffee"],
+      "tasks": [ "coffee" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0,
+         "spawn": false
+      }
+   },
+
+   "css": {
+      "files": [ "css/**/*.css", "!css/**/*.min.css" ],
+      "tasks": [ "build-css" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0,
+         "spawn": false
+      }
+   },
+
+   "htmlmin": {
+      "files": [ "build/**/*.html", "!build/**/*.min.html" ],
+      "tasks": [ "htmlmin" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0
+      }
+   },
+
+   "less": {
+      "files": "less/**/*.less",
+      "tasks": [ "build-less" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0
+      }
+   },
+
+   "php": {
+      "files": [ "**/*.php" ],
+      "tasks": [ "exec" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0
+      }
+   },
+
+   "uglify": {
+      "files": [ "js/**/*.js", "!js/**/*.min.js" ],
+      "tasks": [ "uglify" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0
+      }
+   }
+}

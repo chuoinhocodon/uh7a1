@@ -1,0 +1,8 @@
+﻿{
+   "target": {
+      "files": {
+         "js/data.min.js": [ "js/data.js" ],
+         "js/uh7a1.min.js": [ "js/uh7a1.js" ]
+      }
+   }
+}

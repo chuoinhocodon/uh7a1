@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "js/data.min.js",
+    "inputFiles": [
+      "js/data.js"
+    ]
+  }
+]

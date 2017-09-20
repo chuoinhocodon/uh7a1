@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'QX Bariol';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/QXBariolRegular.eot');
+  src: local('QX Bariol Regular'), local('QXBariolRegular'), /*local*/ url('../fonts/QXBariolRegular.eot?#iefix') format('embedded-opentype'), /*embedded-opentype*/ url('../fonts/QXBariolRegular.woff2') format('woff2'), /*woff2*/ url('../fonts/QXBariolRegular.woff') format('woff'), /*woff*/ url('../fonts/QXBariolRegular.ttf') format('truetype'), /*truetype*/ url('../fonts/QXBariolRegular.svg#QXBariolRegular') format('svg');
+  /*svg*/
+}
+@font-face {
+  font-family: 'SVN-Servetica-Medium';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/SVN-Servetica-Medium.eot');
+  src: local('SVN Servetica Medium'), local('SVN-Servetica-Medium'), /*local*/ url('../fonts/SVN-Servetica-Medium.eot?#iefix') format('embedded-opentype'), /*embedded-opentype*/ url('../fonts/SVN-Servetica-Medium.woff2') format('woff2'), /*woff2*/ url('../fonts/SVN-Servetica-Medium.woff') format('woff'), /*woff*/ url('../fonts/SVN-Servetica-Medium.ttf') format('truetype'), /*truetype*/ url('../fonts/SVN-Servetica-Medium.svg#SVN-Servetica-Medium') format('svg');
+  /*svg*/
+}
+.vocabulary {
+  position: relative;
+  display: inline-block;
+}
+.vocabulary > ruby {
+  bottom: 0;
+  display: block;
+  text-align: center;
+}
+.vocabulary > ruby > rt {
+  font-size: 70%;
+  line-height: normal;
+}
+.vocabulary > rb {
+  font-size: 60%;
+  font-style: italic;
+  line-height: 0;
+  display: block;
+  -webkit-transform: translateY(2.49166667em);
+      -ms-transform: translateY(2.49166667em);
+       -o-transform: translateY(2.49166667em);
+          transform: translateY(2.49166667em);
+  text-align: center;
+}
+.vocabulary.rt > rb {
+  -webkit-transform: translateY(3.29166667em);
+      -ms-transform: translateY(3.29166667em);
+       -o-transform: translateY(3.29166667em);
+          transform: translateY(3.29166667em);
+}
+.main-title {
+  font-family: SVN-Servetica-Medium, Helvetica Neue, Helvetica, Arial, sans-serif, Yu Mincho;
+  font-size: 2em;
+}
+.heading1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  color: #2196f3;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #2196f3;
+}
+.heading2 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: .25em;
+}
+.numbering::after {
+  content: '\0009';
+}
+.segment {
+  margin-bottom: 1em;
+}
+.text.bold {
+  font-weight: bold;
+}
+.text.blue {
+  color: #2196f3;
+}
+.uh7a1-chapter {
+  font-family: 'QX Bariol', Quicksand-Regular, Arial, sans-serif, Yu Mincho;
+  font-size: 22px;
+  line-height: 1.75;
+  margin: 3em 0;
+  text-align: justify;
+  color: #212121;
+}
+.uh7a1-chapter .a00:hover,
+.uh7a1-chapter .a10:hover,
+.uh7a1-chapter .b00:hover,
+.uh7a1-chapter .b01:hover {
+  cursor: pointer;
+}
+.uh7a1-chapter #more-info {
+  font-size: 22px !important;
+  position: fixed;
+  z-index: 9999;
+  display: none;
+  max-width: 100%;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+.uh7a1-chapter #more-info > .container {
+  padding: .5em;
+  background: #fff;
+}
+.uh7a1-chapter #more-info.show {
+  display: block;
+}
+.uh7a1-chapter #more-info .main:empty,
+.uh7a1-chapter #more-info .phonetic:empty,
+.uh7a1-chapter #more-info .han-viet:empty,
+.uh7a1-chapter #more-info .translit:empty,
+.uh7a1-chapter #more-info .mean:empty,
+.uh7a1-chapter #more-info .notes:empty {
+  display: none;
+}
+.uh7a1-chapter #more-info .phonetic,
+.uh7a1-chapter #more-info .han-viet,
+.uh7a1-chapter #more-info .translit,
+.uh7a1-chapter #more-info .mean,
+.uh7a1-chapter #more-info .notes {
+  border-top: solid 1px rgba(0, 0, 0, 0.25);
+}
+.uh7a1-chapter #more-info .main {
+  font-weight: bold;
+  color: #2196f3;
+}
+.uh7a1-chapter #more-info .phonetic {
+  color: #4caf50;
+}
+.uh7a1-chapter #more-info .translit {
+  font-style: italic;
+}

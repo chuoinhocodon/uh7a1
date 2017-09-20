@@ -1,0 +1,7 @@
+﻿{
+   "build-php": {
+      "command": "php -f build.php",
+      "stderr": false,
+      "stdout": true
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "css": {
+      "files": [
+         {
+            "cwd": "css",
+            "dest": "css",
+            "expand": true,
+            "ext": ".min.css",
+            "src": [ "uh7a1.css" ]
+         }
+      ]
+   }
+}

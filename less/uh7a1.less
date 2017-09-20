@@ -1,0 +1,92 @@
+@import 'text-style.less';
+
+.uh7a1-chapter
+{
+    font-family: @default-font-family;
+    font-size: @default-font-size;
+    line-height: @default-line-height;
+
+    margin: 3em 0;
+
+    text-align: justify;
+
+    color: @clr-grey-900;
+
+    @import 'text-style.less';
+
+    .a00,
+    .a10,
+    .b00,
+    .b01
+    {
+        &:hover
+        {
+            cursor: pointer;
+        }
+    }
+
+    #more-info
+    {
+        font-size: @default-font-size !important;
+
+        position: fixed;
+        z-index: 9999;
+
+        display: none;
+
+        max-width: 100%;
+
+        box-shadow: 0 0 25px fade(@clr-black, 25%);
+
+        > .container
+        {
+            padding: .5em;
+
+            background: @clr-white;
+        }
+
+        &.show
+        {
+            display: block;
+        }
+
+        .main,
+        .phonetic,
+        .han-viet,
+        .translit,
+        .mean,
+        .notes
+        {
+            &:empty
+            {
+                display: none;
+            }
+        }
+
+        .phonetic,
+        .han-viet,
+        .translit,
+        .mean,
+        .notes
+        {
+            border-top: solid 1px fade(@clr-black, 25%);
+        }
+
+        .main
+        {
+            font-weight: bold;
+
+            color: @clr-blue;
+        }
+
+        .phonetic
+        {
+            color: @clr-green;
+        }
+
+        .translit
+        {
+            font-style: italic;
+        }
+    }
+}

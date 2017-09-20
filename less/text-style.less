@@ -1,0 +1,105 @@
+@import 'config.less';
+@import 'fonts.less';
+@import 'material-color.less';
+
+.vocabulary
+{
+    position: relative;
+
+    display: inline-block;
+
+    > ruby
+    {
+        bottom: 0;
+
+        display: block;
+
+        text-align: center;
+
+        > rt
+        {
+            font-size: 70%;
+            line-height: normal;
+        }
+    }
+
+    > rb
+    {
+        font-size: 60%;
+        font-style: italic;
+        line-height: 0;
+
+        display: block;
+
+        transform: translateY(@font-size + .825em);
+        text-align: center;
+
+        @font-size: 1em / .6;
+    }
+
+    &.rt
+    {
+        > rb
+        {
+            transform: translateY(@font-size + 1.625em);
+
+            @font-size: 1em/.6;
+        }
+    }
+}
+
+.main-title
+{
+    font-family: @main-title-font-family;
+    font-size: 2em;
+}
+
+.heading1
+{
+    font-size: 1.5em;
+    font-weight: bold;
+
+    margin-top: .25em;
+    margin-bottom: .25em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+
+    color: @clr-blue;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: @clr-blue;
+}
+
+.heading2
+{
+    font-size: 1.25em;
+    font-weight: bold;
+
+    margin-top: .25em;
+}
+
+.numbering
+{
+    &::after
+    {
+        content: '\0009';
+    }
+}
+
+.segment
+{
+    margin-bottom: 1em;
+}
+
+.text
+{
+    &.bold
+    {
+        font-weight: bold;
+    }
+
+    &.blue
+    {
+        color: @clr-blue;
+    }
+}

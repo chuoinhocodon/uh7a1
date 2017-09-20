@@ -1,0 +1,19 @@
+﻿{
+   "build": {
+      "options": {
+         "collapseInlineTagWhitespace": true,
+         "collapseWhitespace": true,
+         "minifyCSS": true,
+         "minifyJS": true,
+         "minifyURLs": true,
+         "removeComments": true,
+         "sortAttributes": true,
+         "sortClassName": true
+      },
+      "cwd": "build",
+      "dest": "build",
+      "expand": true,
+      "ext": ".min.html",
+      "src": [ "**/*.html" ]
+   }
+}
